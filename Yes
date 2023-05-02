@@ -1,0 +1,14 @@
+Here's a simplified version of the pseudocode for the A* algorithm, in plain English:
+
+Start by creating two lists, an "open" list and a "closed" list.
+Add the starting node to the "open" list.
+While the "open" list is not empty:
+a. Find the node with the lowest "fScore" (a combination of the node's distance from the start and estimated distance to the goal) in the "open" list.
+b. If this node is the goal node, return the path to get there.
+c. Move the current node from the "open" list to the "closed" list.
+d. Check all the neighboring nodes of the current node.
+e. For each neighboring node, calculate the tentative distance from the starting node through the current node to get there.
+f. If the neighboring node is not in the "open" list, add it and record its parent (the current node).
+g. If the neighboring node is already in the "open" list, and the tentative distance to get there is greater than the existing recorded distance, skip it.
+h. If the neighboring node is not in either list, set its tentative distance, estimated distance to goal, and parent.
+If the goal is not found after evaluating all neighboring nodes, there is no valid path.
