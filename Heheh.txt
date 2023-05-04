@@ -1,0 +1,42 @@
+Aim: To study how to gather information about the networks by using different n/w reconnaissance tools.
+Tools required : Ubuntu 14.10, WHOIS, traceroute, nslookup Theory :
+The traceroute, tracert, or tracepath command 1s similar to ping, but provides information about the path a packet takes. traceroute sends packets to a destination.
+asking each Internet router along the wav to renlv when it passes on
+the packet.
+This will show you the path packets take when you send them between
+vour location and a destination.
+In computing, traceroute is a computer network diagnostic tool for displaving the route (path) and measuring transit delays of packets across an Internet Protocol (IP network.
+Ine nestory or the route 1s recorded as the round-trlo times or the
+packets received from each successive host remote node) in the route (path);
+sum of the mean times in each how indicates the total time spent to establish the connection. Traceroute proceeds unless all (three) sent packets are lost more than twice, then the connection is lost and the route cannot be evaluated.
+Tnstallation:
+sudo apt-get install traceroute
+Command : traceroute Google.com 
+whois:
+The whois command looks up the registration record associated with a domain name.
+This can show you more information about who registered and owns a domain name, Inclualnd their contact inTormation.
+Installation:
+•suao apt-get install Whois
+commands: whois google.com
+The WHOIS protocol had its origin in the ARPANET NICNAME protocol and was based on the NAME FINGER Protocol. described in RFC 742 (1977). The NICNAME/WHOIS protocol
+WaS TIrst descrlbed 1n RFC 812 10 1982 by Ken Harrenstien and vIc wnlte oT the Network Information Centre at SRI International
+WHOIS was originally implemented on the Network Control Program (NC) but found its manor use when the TCP/TP suite was standardized across the ARPANET and later the Internet.
+nslooKup
+The nslookup command will look up the IP addresses associated with a domain name.
+For example, vou can run nslookup howtogeek.com to see the Ir address oT HOw -IO
+Geek's server
+Installation: :sudo apt-get install nslookup
+Commands: nslookup google.com
+Dig is a networking tool that can query DNS servers for information. It can be very helpful for diagnosing problems with domain pointing and is a good way to verify that your configuration is working.
+Installation: :sudo apt-get install dig
+commanas: alc google.com
+The dig command output has the following sections:
+Header: This displays the dig command version number, the global options used
+ov the ala commana, and
+Tew additional neader inTormation
+QUESTION SECTION: This displays the question it asked the DNS. i.e This is
+vour input. Since we said 'dig redhat.com' and the derault tvpe dia command uses 1S A record. It Indicates in chls section that we asked Tor tne A record or the redhat.com website
+ANSWER SECTION: This displays the answer it receives from the DNS. i.e This
+is your output. This displays the A record of redhat.com
+AA
+• studocu.com
